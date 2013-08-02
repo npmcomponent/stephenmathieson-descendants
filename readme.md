@@ -1,23 +1,22 @@
+# descendants
 
-# decendants
-
-get decendants of an element
+get descendants of an element
 
 ## Installation
 
 Install with [component(1)](http://component.io):
 
-    $ component install stephenmathieson/decendants
+    $ component install stephenmathieson/descendants
 
 ## API
 
-### `decendants(element)`
+### `descendants(element)`
 
-Returns an Array of all element decendants
+Returns an Array of all element descendants
 
-### `decendants(element, true)`
+### `descendants(element, true)`
 
-Returns an Array of direct element decendants
+Returns an Array of direct element descendants
 
 ## License
 
