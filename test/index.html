@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>descendants()</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/test/mocha/mocha.css">
+    <script src="/test/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="/build/build.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div id="fixture">
+      <span class="first"></span>
+      <button class="first"></button>
+      <i class="first"></i>
+      <div class="first">
+        <span class="second"></span>
+        <button class="second"></button>
+        <i class="second"></i>
+        <div class="second">
+          <span class="third"></span>
+          <button class="third"></button>
+          <i class="third"></i>
+          <div class="third"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/test/descendants.js"></script>
+    <script>mocha.run()</script>
+  </body>
+</html>
