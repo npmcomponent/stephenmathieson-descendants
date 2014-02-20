@@ -1,0 +1,9 @@
+{
+  "name": "stephenmathieson-descendants",
+  "description": "get descendants of an element",
+  "version": "0.1.0",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {},
+  "license": "MIT"
+}
